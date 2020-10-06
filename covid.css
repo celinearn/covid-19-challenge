@@ -1,0 +1,68 @@
+/*HEADER*/
+* {
+  margin: 0px;
+}
+
+.header {
+  background-image: url(img/header-banner.jpg);
+  position: relative;
+  color: white;
+  padding-left: 20%;
+  padding-top: 3%;
+  padding-bottom: 0%;
+  text-transform: capitalize;
+}
+
+.col-7 {
+  padding-top: 22%;
+  padding-right: 3%;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+.btn-secondary {
+  background-color: #f8335c;
+  border-radius: 30px;
+}
+
+a {
+  color: white;
+}
+
+a.nav-link active {
+  color: #f8335c;
+}
+
+/*FIRST*/
+.first {
+  background-image: url(img/statistics-bg.png);
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  -moz-box-shadow: 8px 8px 8px #aaa;
+  -webkit-box-shadow: 8px 8px 8px #aaa;
+  box-shadow: 8px 8px 8px #999;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*TEXT 1*/
+.text1 {
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
+
+/*# sourceMappingURL=covid.css.map */
