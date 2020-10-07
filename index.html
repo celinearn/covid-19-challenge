@@ -2,22 +2,24 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <title>Covid-19</title>
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="covid.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-  <div class="container-fluid">
-  	<section class="header">
+
+<!-- Header -->	
+  <div class="container-fluid header">
 	  <div class="row justify-content-md-start">
 		    <div class="col-3">
-		    	<img src="img/coronavirus-logo.png">
+		    	<a href="#index.html"><img src="img/coronavirus-logo.png"></a>
 		    </div>
 		    <div class="col-8">
 		    	<nav>
@@ -41,71 +43,114 @@
 					    <a class="nav-link" href="#">Contact us</a>
 					  </li>	
 					  <li class="nav-item">
-					    <a class="nav-link" href="#"><button type="button" class="btn btn-secondary">Call a doctor</button></a>
+					  	<a class="nav-link" href="#">
+					  		<button type="button" class="btnn">
+					    		Call a doctor
+							</button>
+						</a>
 					  </li>				  
 					</ul>
 		    	</nav>
 		    </div>
 	    <div class="w-100"></div>
-		<div class="row align-items-center">
-		    <div class="col-5">
-		    	<h1>Covid-19</h1>
-		    	<h2>Basic Protective Measures</h2>
-		    	<p>Social Distancing</p>
-		    	<p>For Emergency Contact (012) 345 0789</p>
-		    	<button type="button" class="btn btn-secondary">Get started now!</button>
+		<div class="row align-items-center why"> <!--Le why résoud le problème de marge-->
+		    <div class="col-6">
+		    	<h1>COVID-19</h1>
+		    	<h2>BASIC PROTECTIVE MEASURES</h2>
+		    	<p class="h1">SOCIAL DISTANCING</p>
+		    	<p class="p">For Emergency Contact (012) 345 0789</p>
+		    	<button type="button" class="btnn">GET STARTED NOW!</button>
 		    </div>
-		    <div class="col-7">
-		    	<img src="img/people.png" width="100%">
+		    <div class="col-6 people">
+		    	<img src="img/people.png" width="110%" class="rounded float-right">
 		    </div>
 		</div>
-	</section>
+	</div>
+</div>
 
-<section class="first">
-	<div class="container-fluid">
+<!--first-->
+	<div class="container-fluid first">
   		<div class="row">
 		    <div class="col">
 		    	<center><img src="img/sprite-home-red.png"></center>
-		    	<h3 class="red">Total Confirmed Cases</h3>
-				<h4 class="red">882,068</h4></div>
+		    	<p class="red">Total Confirmed Cases</p>
+				<p class="redi">882,068</p></div>
 		    <div class="col">
 		    	<center><img src="img/sprite-home-pink.png"></center>	    	
-		    	<h3 class="pink">Total Death</h3>
-				<h4 class="pink">37,384</h4></div>
+		    	<p class="pink">Total Death</p>
+				<p class="pinki">37,384</p></div>
 		    <div class="col">
 		    	<center><img src="img/sprite-home-purple.png"></center>		    	
-		    	<h3 class="purple">Recovered</h3>
-				<h4 class="purple">185,067</h4></div>
+		    	<p class="purple">Recovered</p>
+				<p class="purplei">185,067</p></div>
 		    <div class="col">
 		    	<center><img src="img/sprite-home-orange.png"></center>		  
-		    	<h3 class="orange">Coutries</h3>
-				<h4 class="orange">190+</h4>
+		    	<p class="orange">Countries</p>
+				<p class="orangei">190+</p>
 			</div>
   		</div>
-</section>
-<section class="text1">
-	<div class="container-fluid">
-  <div class="row">
-    <div class="col-6">
-      <img src="img/covid-19.png" width="100%">
-    </div>
-    <div class="col-6">
-      <h3>What is Coronavirus?</h3>
-      <h4>Coronavirus deasedbeufefhieieneiejfjeofjizefjiejfeifjeijfeifj</h4>
-      <p>nrejgburebgurbigubrifbriubirbgrigribribgirgbir</p>
-      <h5>How is COVID is jdneihie</h5>
-      <p>jbeifbeifbiefbibirbigbrigfirgirbirbgirbgibri</p>
-      <h5>ifhiehfiheifhjrifciirjir?</h5>
-      <p>ifhjirfhirhgirhbirhighrighirghirhgirbgirbirbgi</p>
-    </div>
+  	</div>	
+
+<!-- text 1 -->  	
+	<div class="container-fluid text1">
+	  <div class="row">
+	    <div class="col-6">
+	      <img src="img/covid-19.png" width="120%">
+	    </div>
+	    <div class="col-6 whatis">
+	      <h3>What is Coronavirus?</h3>
+	      <h4>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</h4>
+	      <p>Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recotver without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
+	      <h5>How Is COVID-19 Diagnosed?</h5>
+	      <p>Diagnosis may be difficult with only a physical exam because mild cases of COVID-19 may appear similar to the flu or a bad cold. A laboratory test can confirm the diagnosis.</p>
+	      <h5>How Is COVID-19 Treated?</h5>
+	      <p>As of now, there is not a specific treatment for the virus. People who become sick from COVID-19 should be treated with supportive measures: those that relieve symptoms. For severe cases, there may be additional options for treatment, including research drugs and therapeutics.</p>
+	    </div>
   </div>
 </div>
-</section>
-<section class="symptome">
 
-</section>
-
-
+<!-- Symptomes -->
+<div class="container-fluid symptome">
+	<center><h3>Symptoms Of Coronavirus</h3></center>
+<center><h4>The most common symptoms of COVID-19 are fever, tiredness, and dry cough.</h4></center>
+	<div class="container sym">
+	  <center><div class="row">
+	    <div class="col-sm">
+			<h5>Headache</h5>
+			<p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>	    
+		</div>
+	    <div class="col-sm">
+		    <h5>High Fever</h5>
+			<p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+	    </div>
+	    <div class="col-sm">
+			<h5>Dry Cough</h5>
+			<p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>	    
+		</div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm">
+			<h5>Shortness Of Breath</h5>
+			<p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>	    
+		</div>
+	    <div class="col-sm">
+		    <h5>Sore Throat</h5>
+			<p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
+	    </div>
+	    <div class="col-sm">
+			<h5>Aches And Pains</h5>
+			<p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>	    
+		</div></center>
+  	</div>
+  </div>
 </div>
+</div>
+
+<!-- Footer -->
+<footer>
+	<div class="container-fluid footer">
+	</div>
+</footer>
+
 </body>
 </html>

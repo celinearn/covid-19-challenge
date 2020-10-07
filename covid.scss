@@ -1,46 +1,72 @@
+$pink: #f8335c;
+
 /*HEADER*/
-*{
-	margin: 0px;
-}
 
-body, html {
-	// margin: 0;
-	// padding: 0;
-}
-
-.header {
+body {
+	font-family: 'open sans';
+	font-size: 14px;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    .header {
 	background-image: url(img/header-banner.jpg);
 	position: relative;
 	color: white;
-	padding-left: 20%;
+	padding-left: 10%;
 	padding-top: 3%;
 	padding-bottom: 0%;
-	text-transform: capitalize;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	.people {padding-top: 22%;}
+	.why {margin:0;} /*Résolution du problème de marge*/
+	}
 }
 
-
-
-.col-7 {
-	padding-top: 22%;
-	padding-right:3%;
-}
-
-.container-fluid {
-	margin:0;
-}
-
-.btn-secondary {
-	background-color: #f8335c;
-	border-radius: 30px;
-}
-
-a {
+.btnn {
+	background-color: $pink;
+	border: 0 !important;
 	color: white;
+	border-radius: 30px;
+	text-transform: uppercase;
+	padding: 10px 20px 10px 20px;
+	transition: all 0.2s ease-in-out;
+	&:hover {color: white;
+  			box-shadow: 0px 0px 15px $pink;}
 }
 
-a.nav-link active {
-	color: #f8335c;
+
+nav {
+	text-transform: uppercase;
+	a {
+		color: white;
+		&:hover {
+			color: $pink;
+		}
+	}
+	.active {
+		color: $pink;		
+	}
 }
+
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h2 {
+	letter-spacing: 2px;
+	}
+
+.h1 {
+	@extend h1;
+}
+
+.p {
+	@extend h2;
+}
+
 
 /*FIRST*/
 
@@ -50,32 +76,72 @@ a.nav-link active {
 	padding-right: 20%;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	-moz-box-shadow: 8px 8px 8px #aaa; 
-	-webkit-box-shadow: 8px 8px 8px #aaa; 
-	box-shadow: 8px 8px 8px #999; 
+	-moz-box-shadow: 0px 0px 12px #aaa; 
+	-webkit-box-shadow: 0px 0px 12px #aaa; 
+	box-shadow: 0px 0px 12px #999; 
+	.red,.redi {color:#fc445c;}
+	.pink,.pinki {color:#e4045c;}
+	.purple,.purplei {color:#741cb4;}
+	.orange,.orangei {color:#f47404;}
 }
 
 h3 {
-	font-size: 16px;
-	text-align: center;
+	font-weight: bold;
+	font-size: 37px;
+	font-family: 'Poppins', sans-serif;
 }
+	
 
 h4 {
-	font-size: 20px;
-	text-align: center;
+		font-style: italic;
+		font-size: 13px;
+		line-height: 2;
+		color: grey;
+		font-family: 'Poppins', sans-serif;	
 }
 
 
 /*TEXT 1*/
 
 .text1 {
-	padding-top: 5%;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-bottom:5%;
+	padding: 5% 10% 5% 10%;
+	.whatis {padding-left: 10%;
+		padding-top: 2%;}
 }
 
+h5 {
+	font-weight: bold;
+}
 
+p {
+	font-size: 14px;
+	line-height: 2;
+	&.red, &.pink, &.purple, &.orange  {
+		font-size: 16px;
+		text-align: center;}
+	&.redi, &.pinki, &.purplei, &.orangei  {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0;}
+}
 
+/*SYMPTOME*/
+
+.symptome {
+	background-image: url(img/symptoms-bg.png);
+	padding-top: 5%;
+	.sym {padding-top: 3%;}
+}
+
+h2 {
+	&.sym {
+		text-align: center;	}
+}
+
+/*footer*/
+.footer {
+	background-image: url();
+}
 
 
